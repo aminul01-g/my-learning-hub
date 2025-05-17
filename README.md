@@ -76,19 +76,19 @@ Backpropagation
 
 Hyperparameter tuning
 
-2. Deep Learning Frameworks
+<h3>2. Deep Learning Frameworks</h3>
 
 PyTorch or TensorFlow (advanced)
 
 Keras for quick prototyping
 
-3. Computer Vision
+<h3>3. Computer Vision</h3>
 
 CNNs, Transfer Learning
 
 OpenCV, image classification
 
-4. Natural Language Processing
+<h3>4. Natural Language Processing</h3>
 
 Tokenization, embeddings (Word2Vec, GloVe)
 
@@ -96,8 +96,8 @@ RNNs, LSTMs, Transformers
 
 Hugging Face Transformers
 
-⚙️ Phase 4: Engineering & Deployment
-1. Model Deployment
+<h2> ⚙️ Phase 4: Engineering & Deployment </h2>
+<h3>1. Model Deployment</h3>
 
 Flask / FastAPI
 
@@ -105,7 +105,7 @@ Docker basics
 
 REST APIs for ML models
 
-2. MLOps Basics
+<h3>2. MLOps Basics</h3>
 
 CI/CD for ML
 
@@ -113,42 +113,42 @@ Model tracking: MLflow / Weights & Biases
 
 Data & model versioning: DVC
 
-3. Cloud & Scaling
+<h3>3. Cloud & Scaling</h3>
 
 AWS / GCP / Azure (AI services)
 
 Kubernetes (for advanced scaling)
 
-🧠 Phase 5: Specializations & Real-World Applications
-Choose one or more focus areas:
+<h2> 🧠 Phase 5: Specializations & Real-World Applications </h2>
+<h3>Choose one or more focus areas:</h3>
 
-Reinforcement Learning: Q-learning, DQN, PPO
+<h3>Reinforcement Learning:</h3> Q-learning, DQN, PPO
 
-Generative AI: GANs, Diffusion models, LLMs
+<h3>Generative AI:</h3> GANs, Diffusion models, LLMs
 
-AI for Robotics
+<h3>AI for Robotics</h3>
 
-AI in Healthcare / Finance / NLP / CV
+<h3>AI in Healthcare / Finance / NLP / CV</h3>
 
-Ethics & Fairness in AI
+<h3>Ethics & Fairness in AI</h3>
 
-🧰 Extra Skills Along the Way
+<h2>🧰 Extra Skills Along the Way</h2>
 SQL and NoSQL (MongoDB)
 
 Bash / Linux skills
 
 GitHub/GitLab for collaboration
 
-Math tools: SymPy, MATLAB (optional)
+<h3>Math tools:</h3> SymPy, MATLAB (optional)
 
-📘 Resources (Optional, but highly recommended)
-Books:
+<h2>📘 Resources (Optional, but highly recommended)</h2>
+<h3>Books:</h3>
 
 Hands-On ML with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron
 
 Deep Learning by Ian Goodfellow
 
-Courses:
+<h3>Courses:</h3>
 
 Andrew Ng’s ML & Deep Learning Specializations (Coursera)
 
@@ -156,4 +156,4 @@ fast.ai
 
 MIT OpenCourseWare (ML & DL)
 
-Communities: Kaggle, Reddit r/MachineLearning, GitHub
+<h3>Communities:</h3> Kaggle, Reddit r/MachineLearning, GitHub
