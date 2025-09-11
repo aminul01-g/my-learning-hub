@@ -1,0 +1,29 @@
+from pydantic import BaseModel
+
+# Create a Pydantic model for a Patient Step 1
+class Patient(BaseModel):
+    name: str
+    age: int
+
+# Create an instance of the Patient model Step 2    
+Patient_info = {'name': "John Doe",
+                'age': 30} 
+
+ob1 = Patient(**Patient_info)
+
+# Insert the instance to verify Step 3
+def insert_patient(patient: Patient):
+    # Simulate inserting patient into a database
+    return patient.model_dump()
+
+# Update the instance to verify Step 4
+def update_patient(patient: Patient, updates: dict):
+    # Simulate updating patient in a database
+    updated_data = patient.model_dump()
+    updated_data.update(updates)
+    return updated_data
+
+print("Insert:", insert_patient(ob1))
+
+# Example update: changing age
+print("Update:", update_patient(ob1, {"age": 31}))
