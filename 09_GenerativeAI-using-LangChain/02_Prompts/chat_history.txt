@@ -1,0 +1,5 @@
+User: hello there
+Bot: Hello! 👋 How can I help you today?
+User: can you tell me what we talk about in our previous chat history?
+Bot: I’m sorry, but I don’t have access to that information.
+User: exit
