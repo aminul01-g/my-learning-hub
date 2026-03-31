@@ -1,159 +1,99 @@
-<h1>🧭 AI Engineering Roadmap</h1>
-
-<h2>🧱 Phase 1: Foundations (Beginner)</h2>
-
-<h3>1. Programming Basics</h3>
-
-Language: Python (core language in AI)
-
-Topics: Data types, control flow, functions, OOP, error handling
-
-Tools: Jupyter Notebook, VS Code, Git
-
-<h3>2. Math for AI</h3>
-
-Linear Algebra (vectors, matrices, eigenvalues)
-
-Calculus (derivatives, gradients)
-
-Probability & Statistics (Bayes theorem, distributions)
-
-Discrete Math (basic logic, set theory)
-
-<h3>3. Data Handling</h3>
-
-Libraries: NumPy, Pandas
-
-Visualization: Matplotlib, Seaborn
-
-Data Preprocessing: Cleaning, scaling, encoding
-
-<h2>🧠 Phase 2: Core Machine Learning (Intermediate)</h2>
-
-<h3>1. Machine Learning Basics</h3>
-
-Supervised & Unsupervised Learning
-
-Algorithms:
-
-Linear Regression, Logistic Regression
-
-Decision Trees, Random Forests
-
-KNN, SVM, K-means, PCA
-
-<h3>2. ML Tools & Libraries</h3>
-
-Scikit-learn
-
-TensorFlow (basic)
-
-PyTorch (basic)
-
-<h3>3. Model Evaluation</h3>
-
-Accuracy, Precision, Recall, F1
-
-Confusion Matrix, ROC-AUC
-
-Cross-validation
-
-<h3>4. Project Ideas</h3>
-
-Titanic survival prediction
-
-House price prediction
-
-Customer segmentation
-
-<h2> 🧠 Phase 3: Deep Learning & NLP (Advanced) </h2>
-
-<h3>1. Neural Networks</h3>
-
-Perceptrons, activation functions
-
-Backpropagation
-
-Hyperparameter tuning
-
-<h3>2. Deep Learning Frameworks</h3>
-
-PyTorch or TensorFlow (advanced)
-
-Keras for quick prototyping
-
-<h3>3. Computer Vision</h3>
-
-CNNs, Transfer Learning
-
-OpenCV, image classification
-
-<h3>4. Natural Language Processing</h3>
-
-Tokenization, embeddings (Word2Vec, GloVe)
-
-RNNs, LSTMs, Transformers
-
-Hugging Face Transformers
-
-<h2> ⚙️ Phase 4: Engineering & Deployment </h2>
-<h3>1. Model Deployment</h3>
-
-Flask / FastAPI
-
-Docker basics
-
-REST APIs for ML models
-
-<h3>2. MLOps Basics</h3>
-
-CI/CD for ML
-
-Model tracking: MLflow / Weights & Biases
-
-Data & model versioning: DVC
-
-<h3>3. Cloud & Scaling</h3>
-
-AWS / GCP / Azure (AI services)
-
-Kubernetes (for advanced scaling)
-
-<h2> 🧠 Phase 5: Specializations & Real-World Applications </h2>
-<h3>Choose one or more focus areas:</h3>
-
-<h3>Reinforcement Learning:</h3> Q-learning, DQN, PPO
-
-<h3>Generative AI:</h3> GANs, Diffusion models, LLMs
-
-<h3>AI for Robotics</h3>
-
-<h3>AI in Healthcare / Finance / NLP / CV</h3>
-
-<h3>Ethics & Fairness in AI</h3>
-
-<h2>🧰 Extra Skills Along the Way</h2>
-SQL and NoSQL (MongoDB)
-
-Bash / Linux skills
-
-GitHub/GitLab for collaboration
-
-<h3>Math tools:</h3> SymPy, MATLAB (optional)
-
-<h2>📘 Resources (Optional, but highly recommended)</h2>
-<h3>Books:</h3>
-
-Hands-On ML with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron
-
-Deep Learning by Ian Goodfellow
-
-<h3>Courses:</h3>
-
-Andrew Ng’s ML & Deep Learning Specializations (Coursera)
-
-fast.ai
-
-MIT OpenCourseWare (ML & DL)
-
-<h3>Communities:</h3> Kaggle, Reddit r/MachineLearning, GitHub
+# 🧭 My Learning Hub: The AI Engineering Journey
+
+<div align="center">
+
+![AI Engineering Banner](https://img.shields.io/badge/AI_Engineering-Roadmap-blue?style=for-the-badge&logo=ai)
+![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python)
+![Math](https://img.shields.io/badge/Math-Linear_Algebra|Calculus-lightgrey?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)
+
+**A consolidated repository documenting my path from programming foundations to Agentic AI and LLM Fine-Tuning.**
+
+---
+
+</div>
+
+## 🗺️ The Roadmap
+
+This hub follows a structured AI Engineering roadmap. Each phase combines **theoretical study** with **hands-on implementation**.
+
+### 🧱 Phase 1: Foundations (Beginner)
+*The bedrock: Python, Mathematics, and Data Manipulation.*
+
+- **Key Topics**:
+  - **Programming**: OOP, Control Flow, Error Handling, Git/VS Code.
+  - **Math**: Linear Algebra, Calculus, Probability & Statistics.
+  - **Data Handling**: Preprocessing, Cleaning, Scaling, Encoding.
+- **Implemented Modules**:
+  - ✅ **[`01_python`](./01_python)**: Core syntax and scripting.
+  - ✅ **[`02_numpy`](./02_numpy)**: Numerical foundations.
+  - ✅ **[`03_pandas`](./03_pandas)**: Data manipulation.
+  - ✅ **[`04_Matplotlib & Seaborn`](./04_Matplotlib%20%26%20Seaborn)**: EDA and Visualization.
+
+### 🧠 Phase 2: Core Machine Learning (Intermediate)
+*Classical algorithms and statistical modeling.*
+
+- **Key Topics**:
+  - **Algorithms**: Linear/Logistic Regression, Trees, Forests, KNN, SVM, K-Means, PCA.
+  - **Evaluation**: Accuracy, Precision, Recall, F1, ROC-AUC, Cross-Validation.
+- **Implemented Modules**:
+  - ✅ **[`06_MachineLearning`](./06_MachineLearning)**: Scikit-learn algorithm implementations.
+  - ✅ **[`pythonProjects`](./pythonProjects)**: Logic-based Python applications.
+- **Project Goals**:
+  - [ ] Titanic Survival Prediction
+  - [ ] House Price Prediction
+  - [ ] Customer Segmentation
+
+### 🌊 Phase 3: Deep Learning & NLP (Advanced)
+*Neural networks and the transformer revolution.*
+
+- **Key Topics**:
+  - **Neural Networks**: Perceptrons, Activation Functions, Backpropagation.
+  - **Computer Vision**: CNNs, Transfer Learning, OpenCV.
+  - **NLP**: Tokenization, Embeddings, RNNs, Transformers, Hugging Face.
+- **Implemented Modules**:
+  - ✅ **[`05_pytorch`](./05_pytorch)**: DL foundations using PyTorch.
+  - ✅ **[`07_DeepLearning`](./07_DeepLearning)**: Advanced architectures and Vision/NLP.
+  - ✅ **[`11_FineTune_Models`](./11_FineTune_Models)**: PEFT/LoRA Fine-tuning (Qwen/Llama).
+
+### ⚙️ Phase 4: Engineering & Deployment
+*Transitioning from models to production-ready systems.*
+
+- **Key Topics**:
+  - **APIs**: REST APIs, Docker, CI/CD for ML.
+  - **MLOps**: Model Tracking (MLflow/W&B), Versioning (DVC).
+  - **Cloud**: Scaling with AWS/GCP or Kubernetes.
+- **Implemented Modules**:
+  - ✅ **[`08_FastAPI`](./08_FastAPI)**: Model serving and RESTful architecture.
+
+### 🤖 Phase 5: Generative & Agentic AI
+*LLM orchestration and autonomous systems.*
+
+- **Key Topics**:
+  - **GenAI**: RAG Pipelines, Prompt Engineering, Diffusion.
+  - **Agentic AI**: Stateful graphs, Multi-agent workflows, Tool use.
+- **Implemented Modules**:
+  - ✅ **[`09_GenerativeAI-using-LangChain`](./09_GenerativeAI-using-LangChain)**: LLM application development.
+  - ✅ **[`10_AgenticAI_using_LangGraph`](./10_AgenticAI_using_LangGraph)**: Autonomous AI Agents.
+
+---
+
+## 🧰 Extra Skills & Utilities
+- **Languages**: SQL (PostgreSQL), NoSQL (MongoDB), Bash/Linux.
+- **Math Tools**: SymPy, MATLAB (Optional).
+- **Collaboration**: GitHub/GitLab CI/CD.
+
+## 📘 Resources & Learning Path
+This project draws inspiration from several high-quality resources:
+- **Andrew Ng's** Machine Learning & Deep Learning Specializations (Coursera).
+- **Fast.ai** Practical Deep Learning for Coders.
+- **Hands-On ML** with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron.
+- **MIT OpenCourseWare** (ML & DL).
+
+## ⚖️ License
+This repository is licensed under the [MIT License](LICENSE). Feel free to use the code for your own learning!
+
+---
+<div align="center">
+Keep learning, keep building. 🚀
+</div>

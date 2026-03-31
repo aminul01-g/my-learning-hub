@@ -1,1 +1,16 @@
-prompt_toolkit==3.0.52
+#LangGraph
+langgraph
+
+# LangChain Core
+langchain
+langchain-core
+
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+
+# Environment Variable Management
+python-dotenvprompt_toolkit==3.0.52
