@@ -1,9 +1,43 @@
-# Python virtual environment
+# 🐍 Python & Jupyter Notebooks
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.ipython/
+.python-version
+.env
 .venv/
 venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
+env/
+ENV/
+
+# 📦 Distribution / Packaging
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 🧪 Testing & Coverage
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 📂 System & IDEs
 .DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📊 Data
+*.csv
+*.json
+# Note: Keep specific datasets if they are intentional (like titanic.csv)
+# Use !path/to/data.csv to explicitly track them if needed
