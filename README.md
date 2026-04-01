@@ -1,4 +1,4 @@
-# 🧭 My Learning Hub: The AI Engineering Journey
+# 🧭 My Learning Hub: The AI Engineering Journey of Mine
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![Math](https://img.shields.io/badge/Math-Linear_Algebra|Calculus-lightgrey?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)
 
-**A consolidated repository documenting my path from programming foundations to Agentic AI and LLM Fine-Tuning.**
+**A consolidated repository documenting my learning path from programming foundations to Agentic AI and LLM Fine-Tuning.**
 
 ---
 
@@ -15,7 +15,7 @@
 
 ## 🗺️ The Roadmap
 
-This hub follows a structured AI Engineering roadmap. Each phase combines **theoretical study** with **hands-on implementation**.
+This hub follows a structured AI Engineering roadmap that I followed. Each phase combines **theoretical study** with **hands-on implementation**.
 
 ### 🧱 Phase 1: Foundations (Beginner)
 *The bedrock: Python, Mathematics, and Data Manipulation.*
