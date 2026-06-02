@@ -6,6 +6,7 @@
 // 1. Primitive data types: string, number, boolean, null, undefined, symbol
 // 2. Non-primitive data types: object (including arrays and functions)
 
+// Primitive Data Types
 // String data type
 let name = "Aminul Islam"
 console.table([name, typeof(name)])
@@ -42,6 +43,14 @@ let uniqueId = Symbol("id")
 console.table([uniqueId, typeof(uniqueId)])
 
 
+//-----------------------------------------------------------
+//****************** Non-Primitive Data Types ********************
+// Array, Objects, Functions
+
+let numbers = [1, 2, 3, 4, 5] // Array
+console.log(numbers)
+
+
 // Object data type
 let person = {
     name: "Aminul Islam",
@@ -52,3 +61,9 @@ let person = {
     uniqueId: Symbol("id")
 }
 console.table([person, typeof(person)])     
+
+let func = function(){
+    console.log("Hello World");
+} // Function
+
+console.log(func)
