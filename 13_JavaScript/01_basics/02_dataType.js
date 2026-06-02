@@ -10,6 +10,21 @@
 // String data type
 let name = "Aminul Islam"
 console.table([name, typeof(name)])
+console.log(`Hello my name is ${name}`);
+
+let gameName = new String(' Clash of Clan');
+console.log(gameName); // simply pring the game name
+console.log(gameName.__proto__); //  
+console.log(gameName.toLocaleLowerCase()); // convert into Lowercase
+console.log(gameName.toUpperCase()); // convert into Uppercase
+console.log(gameName.charAt(3)); // find char in index 3
+console.log(gameName.indexOf('a')); // find the index of a char
+console.log(gameName.substring(3,6)); // print a substring
+console.log(gameName.slice(-12, 4)); // 
+console.log(gameName.trim()); // remove the extra space
+console.log(gameName.replace('n', 'N')); // replace one to another
+console.log(gameName.includes('i')); // is there or not
+
 
 
 // Number data type -> 2^53
